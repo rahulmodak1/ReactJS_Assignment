@@ -1,0 +1,62 @@
+body {
+    background: rgb(91, 20, 196);
+    background: radial-gradient(circle, rgba(91, 20, 196, 0.2665441176470589) 27%, rgba(25, 118, 191, 0.10688025210084029) 81%);
+}
+
+.header {
+    position: sticky;
+    z-index: 11;
+    top: 0;
+    min-height: 70px;
+    width: 100%;
+    background: rgb(196, 126, 20);
+    background: linear-gradient(180deg, rgb(219, 219, 219) 16%, rgb(255, 255, 255) 55%);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-shadow: 1px 1px 2px rgba(51, 51, 235, 0.86);
+    /* overflow: hidden; */
+}
+
+.logo {
+    text-decoration: none;
+    color: black;
+    padding-left: 2rem;
+    font-size: 2.5rem;
+    font-weight: bolder;
+}
+
+.header_links ul {
+    display: flex;
+    margin: 0;
+}
+
+.header_links ul li {
+    list-style: none;
+    font-size: 1.5rem;
+}
+
+.header_links ul li a {
+    text-decoration: none;
+    color: black;
+    padding: 0 1.5rem;
+}
+
+.header_links ul li a:hover {
+    color: rgba(51, 51, 235, 0.86);
+}
+
+.cart-item-quantity {
+    /* position: relative;
+    left: 100px; */
+    user-select: auto;
+    position: relative;
+    right: 30px;
+    top: -9px;
+    color: white;
+    background-color: red;
+    border-radius: 50px;
+    height: 25px;
+    width: 25px;
+    text-align: center;
+}
